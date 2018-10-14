@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="ps_sky.hlsl">
+      <Filter>resources</Filter>
+    </FxCompile>
+    <FxCompile Include="ps_line.hlsl">
+      <Filter>resources</Filter>
+    </FxCompile>
+    <FxCompile Include="vs_sky.hlsl">
+      <Filter>resources</Filter>
+    </FxCompile>
+    <FxCompile Include="vs_line.hlsl">
+      <Filter>resources</Filter>
+    </FxCompile>
+    <FxCompile Include="gs_particle.hlsl">
+      <Filter>resources</Filter>
+    </FxCompile>
+    <FxCompile Include="vs_particle.hlsl">
+      <Filter>resources</Filter>
+    </FxCompile>
+    <FxCompile Include="ps_particle.hlsl">
+      <Filter>resources</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="DebugLine.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="PrimitiveFactory.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="ParticleSystem.cpp" />
+    <ClCompile Include="FireworkEmitters.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AlignmentClass.h" />
+    <ClInclude Include="App.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="DebugLine.h" />
+    <ClInclude Include="input_map.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="PrimitiveFactory.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="v2.h" />
+    <ClInclude Include="v3.h" />
+    <ClInclude Include="v4.h" />
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h" />
+    <ClInclude Include="FireworkEmitters.h" />
+    <ClInclude Include="Utility.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="v2.inl" />
+    <None Include="v3.inl" />
+    <None Include="v4.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{c75f9a77-cdea-4023-85a1-621bcfddf6df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{b2984993-c78a-4e5f-bedd-5e308432cdd4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
